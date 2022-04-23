@@ -1,10 +1,13 @@
 body{
     margin: 0;
     padding: 0; 
+    width: 100vw;
     font-family: Arial, sans-serif; 
 }
 .container{
     display: flex;
+    height: calc(100%-60px);
+    width: inherit;
 }
 h1{
     font-size: 4.7rem;
@@ -76,7 +79,7 @@ button:hover{
     background-image: url(../images/lohp_en_1302x955.png);
     background-size: cover;
     width: 56vw;
-    height: 700px;
+    height: inherit;
     background-position: center;
 }
 .tweet{
@@ -100,7 +103,7 @@ button:hover{
     display: flex;
     justify-content: center;
     background-color: white;
-    height: auto;
+    height: 60px;
     font-size: 14px;
     margin: 10px 0;
     flex-wrap: wrap;
